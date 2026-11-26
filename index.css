@@ -5,6 +5,8 @@ body{
 .main{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
 }
 .main-left{
 }
@@ -26,6 +28,13 @@ grid-template-columns: 1fr 1fr;
 }
 
 
+.collection{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.top{
+    color: pink;
+}
 
 
 .card {
