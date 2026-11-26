@@ -5,6 +5,8 @@ body{
 .main{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
 }
 .main-left{
 }
@@ -14,6 +16,13 @@ body{
 }
 h1 span{
     color: palevioletred;
+}
+.collection{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.top{
+    color: pink;
 }
 
 
@@ -39,7 +48,6 @@ h1 span{
 }
 .card-body {
     font-size: 13px;
-=======
 .main-left button{
     background: palevioletred;
     color: azure;
