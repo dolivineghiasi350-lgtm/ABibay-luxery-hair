@@ -1,9 +1,12 @@
+body{
+    margin: 0px 100px;
+    padding-top: 100px;
+}
 .main{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
 .main-left{
-    padding: 100px;
 }
 .main-left h1{
     font-size: xx-large;
@@ -23,3 +26,45 @@ grid-template-columns: 1fr 1fr;
 }
 
 
+
+
+.card {
+    margin-left: 20px;
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+    position:relative;
+    padding-bottom:10px
+}
+.tag {
+    color:#f70eff;
+    font-size:25px;
+    font-weight:bold;
+    padding:5px 10px;
+    border-radius:20px
+}
+
+.stars {
+    color: gold;
+}
+.card-body {
+    font-size: 13px;
+.main-left button{
+    background: palevioletred;
+    color: azure;
+    padding: 5px 15px;
+    font-size: larger;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+.section{
+    text-align: center;
+    
+}
+h2{
+color: palevioletred;
+padding: 5px 0px;
+}
