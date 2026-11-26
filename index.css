@@ -12,3 +12,14 @@
 h1 span{
     color: palevioletred;
 }
+.topic{
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.angel{
+    text-align: center;
+    padding: 20px;
+}
+
+
